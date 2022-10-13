@@ -1,0 +1,117 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.main
+{
+    /* Propiedades del fondo */
+    background-image: url(../assets/imgs/MetaX_Landing_Desktop.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: center;
+
+    /* Containner */
+    width: 100%;
+    height: 100vh;
+    padding-top: 1vw;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main__head
+{
+    width: 16.5vmax;
+}
+.main__logo
+{
+    width: 100%;
+}
+.main__descripcion
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__titulo
+{
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.6vw;
+    font-family: "Montserrat - Light";
+
+}
+.main__marker
+{
+    font-weight: 900;
+    letter-spacing: 0px;
+    font-family: "Montserrat - Bold";
+}
+.main__barra
+{
+    margin-top: 3vw;
+    border-radius: 100px;
+    width: 50%;
+    padding: 0.2vw;
+    background-color: #4d4d4d;
+}
+.main__longitud
+{
+    width: 50%;
+    height: 2vw;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #55c0cc 20%, #7c69c1 60%, #2e548e 100%);
+}
+.main__sociales
+{
+    margin-top: 1vw;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main__social
+{
+    width: 3vw;
+    margin: 0.4vw;
+}
+.main__copy 
+{
+    font-size: 0.7vw;
+    font-family: "Montserrat - Bold";
+    color: #4D4D4D;
+    margin-top: 0.5vw;
+    text-transform: uppercase;
+}
+
+.seperador
+{
+
+    width: 100%;
+    height: 12vw;
+}
+
+
+
+
+@font-face {
+    font-family: 'Montserrat - Light';
+    src: url('../assets/fonts/Montserrat/Montserrat-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Montserrat - Bold';
+    src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
