@@ -114,16 +114,16 @@
 }
 @media (max-width: 580px){
     .main__titulo {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .main__barra {
-        width: 90%;
+        width: 70%;
     }
     .main__copy {
         font-size: .7em;
     }
     .main__social {
-        width: 2em;
+        width: 3em;
     }
     .main__head {
         width: 13em;
@@ -137,9 +137,19 @@
     .seperador {
         height: 9em;
     }
+    .main__sociales {
+        margin-top: 11em;
+    }
+    .main__longitud {
+        height: 2.3em;
+    }
 }
-/* iPhone 14 pro  */
-
+@media (max-width: 580px){
+    .main__titulo {
+        font-size: 2em;
+    }
+}
+/* Personalizada */
 
 
 @font-face {
