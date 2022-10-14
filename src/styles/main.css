@@ -139,30 +139,7 @@
     }
 }
 /* iPhone 14 pro  */
-@media (max-width: 400px)
-{
-    .main__head {
-        width: 12em;
-    }
-    .seperador {
-        height: 5em;
-    }
-    .main__barra {
-        margin-top: 2em;
-    }
-    .main__longitud {
-        height: 2em;
-    }
-    .main__titulo {
-        font-size: 1.6em;
-    }
-    .main__social {
-        width: 1.7em;
-    }
-    .main__copy {
-        font-size: .6em;
-    }
-}
+
 
 
 @font-face {
