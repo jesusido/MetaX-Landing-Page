@@ -254,6 +254,10 @@
     
 
     }
+    .main__head_text_1
+    {
+        width: 70vw;
+    }
     .preloading_cambio
     {
         transition: 2s;
