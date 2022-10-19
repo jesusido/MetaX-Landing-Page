@@ -240,29 +240,30 @@
     }
 
     
+    .preloading{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 999;
+        background: linear-gradient(115deg, #55c0cc 40%, #7c69c1 57%, #55c0cc 100%, #877bb3 0%);
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;
+    
+
+    }
+    .preloading_cambio
+    {
+        transition: 2s;
+        transform: translateX(100vh);
+        visibility: hidden;
+    }
 }
 
 
-.preloading{
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: 999;
-    background: linear-gradient(115deg, #55c0cc 40%, #7c69c1 57%, #55c0cc 100%, #877bb3 0%);
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 2s;
-   
 
-}
-.preloading_cambio
-{
-    transition: 2s;
-    transform: translateX(100vh);
-    visibility: hidden;
-}
 /* Animations */
 @keyframes barraDeCargaCors{
     from{
