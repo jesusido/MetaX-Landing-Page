@@ -6,6 +6,11 @@
     
 }
 
+:root{
+    --imgDesktop-backgorund: url(../assets/imgs/MetaX_Landing_Desktop.png);
+    --imgMobile-backgorund: url(../assets/imgs/MetaX_Landing_Mobile.png);
+
+}
 /* Mobile First */
 
 /* MOBILE */
@@ -13,7 +18,7 @@
 {
     .main
     {
-        background-image: url(../assets/imgs/MetaX_Landing_Mobile.jpg);
+        background-image: var(--imgMobile-backgorund);
         background-position: center center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -182,7 +187,7 @@
 {
     .main
     {
-        background-image: url(../assets/imgs/MetaX_Landing_Mobile.jpg);
+        background-image: var(--imgMobile-backgorund);
         background-position: center center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -350,8 +355,10 @@
 /* DESKTOP */
 @media (min-width: 851px)
 {
-    .main {
-        background-image: url(../assets/imgs/MetaX_Landing_Desktop.jpg);
+    .main 
+    {
+
+        background-image: var(--imgDesktop-backgorund);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
