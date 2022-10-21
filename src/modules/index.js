@@ -5,6 +5,6 @@ window.onload = function () {
 
         preloader.classList.add("preloading_cambio");
         bar.classList.add("main__barra_animate");
-    }, 2500);
+    }, 1000);
 }
 
